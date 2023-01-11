@@ -8,3 +8,9 @@
 .card{
    margin-bottom: 50px;
 }
+.card-img-top{
+    height: 200px;
+}
+body{
+    scroll-behavior: smooth;
+}
