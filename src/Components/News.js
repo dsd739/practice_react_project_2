@@ -6,155 +6,18 @@ export class News extends Component {
     {
       source: {
         id: null,
-        name: "News18",
+        name: "India.com",
       },
-      author: "Entertainment Bureau",
+      author: "Zee Media Bureau",
       title:
-        "Golden Globes LIVE Updates: Rajinikanth Congratulates SS Rajamouli; Ram Charan Thanks Salman 'Bhai'; 'Congr - News18",
+        "SL: 29-1 (6) | IND VS SL, 2nd ODI LIVE Cricket Score and Updates: Sri Lanka lose first wicket in for - Zee News",
       description:
-        "Live Updates from the 80th Golden Globe Awards: RRR won Golden Globe in Best Song (Motion Picture) category for Naatu Naatu.",
-      url: "https://www.news18.com/news/movies/golden-globes-2023-live-updates-rrr-ss-rajamouli-ram-charan-jr-ntr-naatu-naatu-livenews-6803599.html",
+        "SL: 51-1 (10) | IND VS SL, 2nd ODI LIVE Cricket Score and Updates: Sri Lanka steady innings after lo",
+      url: "https://zeenews.india.com/cricket/live-updates/live-cricket-score-ind-vs-sl-2nd-odi-2023-cricket-match-today-india-vs-sri-lanka-cricket-live-score-and-updates-eden-gardens-kolkata-rohit-sharma-dasun-shanaka-2560369",
       urlToImage:
-        "https://images.news18.com/ibnlive/uploads/2023/01/rrr-rajinikanth-167344656316x9.jpg",
-      publishedAt: "2023-01-11T14:24:52Z",
-      content:
-        "Social media is flooded with fans, friends and industry colleagues sending wishes to team RRR. From Rajinikanth to Shah Rukh Khan, Salman Khan and Amitabh Bachchan among others; several superstars to… [+2248 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "Moneycontrol",
-      },
-      author: "Moneycontrol News",
-      title:
-        "Auto Expo 2023 Live Updates: Bookings to begin today at all Lexus Guest Experience Centers across the... - Moneycontrol",
-      description:
-        "Auto Expo 2023 Live Updates: Ushering in a new era, the fifth-generation Lexus RX undergoes a complete renewal, pursuing the\r\nnext-generation Lexus design.",
-      url: "https://www.moneycontrol.com/news/automobile/auto-expo-2023-live-updates-biggest-motown-jamboreee-back-in-india-after-3-years-9844311.html",
-      urlToImage:
-        "https://images.moneycontrol.com/static-mcnews/2023/01/image-1-2-655x435.jpg",
-      publishedAt: "2023-01-11T14:19:52Z",
-      content:
-        "January 11, 2023 / 05:07 PM IST\r\nAuto Expo 2023 Live Updates: Matter Motorbike\r\n- The Matter-bike is designed from the ground up in India for India, with the next-generation features and experiences.… [+516 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "Hindustan Times",
-      },
-      author: "HT Tech",
-      title:
-        "Top 5 Samsung phones under 20000: Galaxy M13, Galaxy A23, Galaxy A13, more; Check prices - HT Tech",
-      description:
-        "Know the best Samsung smartphones under Rs. 20000. The list includes Samsung Galaxy M13, Samsung Galaxy A23, Samsung Galaxy A13 and more.",
-      url: "https://tech.hindustantimes.com/mobile/news/top-5-samsung-phones-under-20000-galaxy-m13-galaxy-a23-galaxy-a13-more-check-prices-71673445475380.html",
-      urlToImage:
-        "https://images.hindustantimes.com/tech/img/2023/01/11/1600x900/download_1669180405391_1673445540512_1673445540512.jpg",
-      publishedAt: "2023-01-11T14:05:25Z",
-      content:
-        "Budget smartphones are not known for featuring cutting edge technology, but they are made to take care of all day-to-day needs. But nowadays, shopping for smartphones under Rs. 20000 does not necessa… [+2648 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "The Siasat Daily",
-      },
-      author: "Indo-Asian News Service",
-      title:
-        "NASA mission spots 2nd Earth-size world within ‘habitable zone’ - The Siasat Daily",
-      description:
-        "Astronomers previously discovered three planets in this system, called TOI 700 b, c, and d.",
-      url: "https://www.siasat.com/nasa-mission-spots-2nd-earth-size-world-within-habitable-zone-2500441/",
-      urlToImage:
-        "https://cdn.siasat.com/wp-content/uploads/2022/09/nasa-3.jpg",
-      publishedAt: "2023-01-11T13:59:00Z",
-      content:
-        "Washington: NASA mission has discovered a second Earth-sized, rocky planet within the habitable zone of its star — the range of distances where liquid water could occur on a planet’s surface.\r\nUsing … [+2542 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "NDTV News",
-      },
-      author: null,
-      title:
-        "US Rules Out Cyberattack As 3,700 Flights Delayed: What We Know So Far - NDTV",
-      description:
-        'Operations are gradually resuming after flights across the US were grounded  stranded due to a glitch in a computer system of the US regulator FAA.\r\n\r\nThe White House has denied any evidence of cyberattack "at this point"',
-      url: "https://www.ndtv.com/world-news/us-flights-grounded-what-we-know-so-far-3683130",
-      urlToImage:
-        "https://c.ndtvimg.com/2022-01/2skuvbt_us-air-travel-afp-us-flights-us-airport-650_625x300_03_January_22.jpg",
-      publishedAt: "2023-01-11T13:58:00Z",
-      content:
-        "<li>US Regulator Federal Aviation Administration says flight operations are gradually resuming and it expects departures to resume at airports at 9 am Eastern Time.\r\n</li><li>At least 3,700 flights a… [+698 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "NDTV News",
-      },
-      author: null,
-      title:
-        "Pakistan's Passport Among World's Weakest. Most Powerful Are... - NDTV",
-      description:
-        "Japan starts 2023 with the world's most powerful passport, allowing visa-free entry to 193 global destinations, according to the latest Henley Passport Index, which the country tops for the fifth consecutive year.",
-      url: "https://www.ndtv.com/world-news/the-best-passports-to-hold-in-2023-and-the-worst-3683565",
-      urlToImage:
-        "https://c.ndtvimg.com/2023-01/6spboq5g_pakistan-passport-generic-_625x300_11_January_23.jpg",
-      publishedAt: "2023-01-11T13:48:00Z",
-      content:
-        "The US was among the top 22, with visa-free access to 186 places. (Representational)\r\nJapan starts 2023 with the world's most powerful passport, allowing visa-free entry to 193 global destinations, a… [+2092 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "NDTV News",
-      },
-      author: null,
-      title:
-        "This Asthma Medicine Could Solve Memory Loss Problem, Worked On Mice - NDTV",
-      description:
-        "University of Groningen neuroscientist Robbert Havekes discovered that what you learn while being sleep deprived is not necessarily lost, it is just difficult to recall.",
-      url: "https://www.ndtv.com/feature/this-asthma-medicine-could-solve-memory-loss-problem-worked-on-mice-3683506",
-      urlToImage:
-        "https://c.ndtvimg.com/2021-09/oplbdieg_memory_625x300_21_September_21.jpg",
-      publishedAt: "2023-01-11T13:11:18Z",
-      content:
-        'Human-approved medication brings back "lost" memories in mice.\r\nModern civilization is notorious for its widespread problem with sleep deprivation, which affects people of all ages and has a negative… [+2185 chars]',
-    },
-    {
-      source: {
-        id: null,
-        name: "NDTV News",
-      },
-      author: null,
-      title:
-        "21 Parties Invited To Join The Close Of Rahul Gandhi's Yatra In Srinagar - NDTV",
-      description:
-        "The Congress has written to 21 parties inviting them to the close of Rahul Gandhi's Bharat Jodo Yatra in Srinagar on January 30.",
-      url: "https://www.ndtv.com/india-news/21-parties-invited-to-join-the-close-of-rahul-gandhis-yatra-in-srinagar-3683275",
-      urlToImage:
-        "https://c.ndtvimg.com/2023-01/t55tabf8_rahul-gandhi-_625x300_11_January_23.jpg",
-      publishedAt: "2023-01-11T13:07:30Z",
-      content:
-        "21 Parties have been invited to the close of Rahul Gandhi's Bharat Jodo Yatra in Srinagar.\r\nNew Delhi: The Congress has invited 21 like-minded parties to participate in the concluding programme of it… [+2271 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "The Tribune India",
-      },
-      author: "The Tribune India",
-      title:
-        "Bharat Jodo Yatra is all about spreading love, Rahul Gandhi says at Sirhind - The Tribune India",
-      description:
-        "Congress leader Rahul Gandhi paid obeisance at Gurdwara Fatehgarh Sahib on Wednesday morning before beginning the Punjab leg of the Bharat Jodo Yatra.&nbsp;",
-      url: "https://www.tribuneindia.com/news/punjab/rahul-gandhi-pays-obeisance-at-fatehgarh-sahib-gurdwara-before-starting-punjab-leg-of-bharat-jodo-yatra-469371",
-      urlToImage:
-        "https://englishtribuneimages.blob.core.windows.net/gallary-content/2023/1/2023_1$largeimg_545075326.jpg",
-      publishedAt: "2023-01-11T12:24:00Z",
-      content:
-        "Tribune News Service\r\nAman Sood and Surinder Bhardwaj\r\nFatehgarh Sahib, January 11\r\nCongress leader Rahul Gandhi paid obeisance at Gurdwara Fatehgarh Sahib on Wednesday morning before beginning the P… [+1698 chars]",
+        "https://english.cdn.zeenews.com/sites/default/files/2023/01/11/1140219-untitled-design-2023-01-11t160630.939.png",
+      publishedAt: "2023-01-12T08:30:01Z",
+      content: null,
     },
     {
       source: {
@@ -163,81 +26,279 @@ export class News extends Component {
       },
       author: "HT Sports Desk",
       title:
-        "Watch: Kohli-Shami's unmissable exchange after India pacer takes last-ball run - Hindustan Times",
+        "‘Jay Shah sir’: Prithvi Shaw's reply to BCCI secretary after record-smashing 379 - Hindustan Times",
       description:
-        "If you think Virat Kohli's cold stare at Hardik Pandya for denying a second run was the only time the former India captain disagreed with his teammate's judgment, you got another thing coming. | Cricket",
-      url: "https://www.hindustantimes.com/cricket/watch-video-virat-kohli-and-mohammed-shami-s-totally-unmissable-exchange-after-india-pacer-takes-single-off-last-ball-to-deny-batter-strike-101673437306652.html",
+        "On Wednesday, Board of Control for Cricket in India(BCCI) secretary Jay Shah took to Twitter to acknowledge his explosive triple ton and congratulated him for hitting the second-highest Ranji Trophy score of all time. | Cricket",
+      url: "https://www.hindustantimes.com/cricket/jay-shah-sir-prithvi-shaw-s-reply-to-bcci-secretary-after-smashing-multiple-records-with-towering-379-in-ranji-match-101673501162396.html",
       urlToImage:
-        "https://images.hindustantimes.com/img/2023/01/11/1600x900/shami-kohli-batting-screengrab_1673437684656_1673437699440_1673437699440.jpg",
-      publishedAt: "2023-01-11T11:52:38Z",
+       null,
       content:
-        "If you think Virat Kohli's cold stare at Hardik Pandya for denying a second run was the only time the former India captain disagreed with his teammate's judgment, you got another thing coming. Kohli … [+2207 chars]",
+        "Talented young cricketer Prithvi Shaw slammed a triple century (379 off 383 balls) in the Ranji Trophy on Wednesday. Playing for Mumbai, he helped his team pile up 687/4 in the first innings against … [+2082 chars]",
     },
     {
-      source: {
-        id: null,
-        name: "The Tribune India",
+      "source": {
+      "id": null,
+      "name": "Moneycontrol"
       },
-      author: "The Tribune India",
-      title:
-        "Joyce Meyer Keto Gummies Reviews| Is Slim Candy Keto Gummies a Scam? Know More About Accent Slim Keto Gummies & Super Slim Keto Gummies. - The Tribune India",
-      description:
-        "Obesity is defined as an abnormal accumulation of fat in your body that causes a variety of health problems. It is a problem that both men and women face, as well as children. Obesity is defined as a BMI greater than 30. This is a problem that children face, …",
-      url: "https://www.tribuneindia.com/news/brand-connect/joyce-meyer-keto-gummies-reviews-is-slim-candy-keto-gummies-a-scam-know-more-about-accent-slim-keto-gummies-super-slim-keto-gummies-469488",
-      urlToImage:
-        "https://englishtribuneimages.blob.core.windows.net/gallary-content/2023/1/2023_1$largeimg_1399062468.jpg",
-      publishedAt: "2023-01-11T11:17:00Z",
-      content:
-        "Obesity is defined as an abnormal accumulation of fat in your body that causes a variety of health problems. It is a problem that both men and women face, as well as children. Obesity is defined as a… [+10620 chars]",
-    },
+      "author": "Rakesh Patil",
+      "title": "Market LIVE Updates: Indices trade lower, Nifty around 17,800; Divis Labs, Axis Bank top losers - Moneycontrol",
+      "description": "Stock Market LIVE Updates: Oil &amp; Gas, PSU Bank indices down 1 percent each, while metal and pharma indices down 0.5 percent each.",
+      "url": "https://www.moneycontrol.com/news/business/markets/share-market-live-updates-stock-market-today-january-12-latest-news-bse-nse-sensex-nifty-covid-coronavirus-infosys-hcl-technologies-cyient-den-networks-hindustan-unilever-sbi-route-mobile-antony-waste-9851411.html",
+      "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/01/sensex_nifty_sensexdown-1-770x433.jpg",
+      "publishedAt": "2023-01-12T08:34:56Z",
+      "content": "<li>Nifty Private Bank index falls 0.75 percent dragged by Axis Bank, Bandhan Bank and RBL Bank; HDFC Bank lone gainer\r\n</li><li>Alibaba likely to have sold stake in Paytm via bulk deal; stock down 5… [+3838 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "India.com"
+      },
+      "author": "Zee Media Bureau",
+      "title": "SL: 29-1 (6) | IND VS SL, 2nd ODI LIVE Cricket Score and Updates: Sri Lanka lose first wicket in for - Zee News",
+      "description": "SL: 51-1 (10) | IND VS SL, 2nd ODI LIVE Cricket Score and Updates: Sri Lanka steady innings after lo",
+      "url": "https://zeenews.india.com/cricket/live-updates/live-cricket-score-ind-vs-sl-2nd-odi-2023-cricket-match-today-india-vs-sri-lanka-cricket-live-score-and-updates-eden-gardens-kolkata-rohit-sharma-dasun-shanaka-2560369",
+      "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2023/01/11/1140219-untitled-design-2023-01-11t160630.939.png",
+      "publishedAt": "2023-01-12T08:30:01Z",
+      "content": null
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "Hindustan Times"
+      },
+      "author": "HT Tech",
+      "title": "Wow! NASA James Webb Telescope snaps unparalleled dusty disk near red dwarf - HT Tech",
+      "description": "NASA's James Webb Telescope has snapped an image of dusty disk around the red dwarf star that was never viewed before. Know more details.",
+      "url": "https://tech.hindustantimes.com/tech/news/wow-nasa-james-webb-telescope-snaps-unparalleled-dusty-disk-near-red-dwarf-71673510644081.html",
+      "urlToImage": "https://images.hindustantimes.com/tech/img/2023/01/12/1600x900/stsci-01gmr6d76cha8ke2g8ct9meebn_1673510971477_1673510996988_1673510996988.png",
+      "publishedAt": "2023-01-12T08:12:03Z",
+      "content": "NASA's most expensive telescope, the James Webb Space Telescope has again amazed scientists by snapping till-now unseen images of the deep cosmos. Here again, the Webb Telescope has clicked the inner… [+1718 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "The Indian Express"
+      },
+      "author": "Express News Service",
+      "title": "Arvind Kejriwal asked to pay Rs 163 crore ‘mis-spent’ on ads ‘within 10 days’ - The Indian Express",
+      "description": "The Committee had directed the Delhi Government to get the entire expenditure incurred on such categories of ads reimbursed to the state exchequer from the Aam Aadmi Party.",
+      "url": "https://indianexpress.com/article/cities/delhi/delhi-govt-publicity-wing-asks-aap-to-pay-over-rs-163-crore-allegedly-misspent-on-ads-8376911/",
+      "urlToImage": "https://images.indianexpress.com/2023/01/arvind-kejriwal-4.jpeg",
+      "publishedAt": "2023-01-12T07:53:32Z",
+      "content": "The Delhi governments publicity wing, the Directorate of Information and Publicity (DIP), has asked Chief Minister Arvind Kejriwal, in his capacity as AAP National Convenor, to reimburse over Rs.163 … [+3629 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "The Siasat Daily"
+      },
+      "author": "Indo-Asian News Service",
+      "title": "Samsung Galaxy S23 series pre-order now available in India - The Siasat Daily",
+      "description": "New Delhi: Samsung on Thursday announced that pre-reservations of its upcoming flagship series, Galaxy S23, have started in India. Customers can pre-reserve the new Galaxy S series by paying a token amount of Rs 1,999 on the company's official website, Samsun…",
+      "url": "https://www.siasat.com/samsung-galaxy-s23-series-pre-order-now-available-in-india-2500856/",
+      "urlToImage": "https://cdn.siasat.com/wp-content/uploads/2022/12/Galaxy-S23.jpg",
+      "publishedAt": "2023-01-12T07:17:00Z",
+      "content": "New Delhi: Samsung on Thursday announced that pre-reservations of its upcoming flagship series, Galaxy S23, have started in India.\r\nCustomers can pre-reserve the new Galaxy S series by paying a token… [+1072 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "Hindustan Times"
+      },
+      "author": "HT Tech",
+      "title": "Deadline destroyer! Windows 11 Snap Assist, Your Multi-Tasking Partner - HT Tech",
+      "description": "If you have work to do, then most likely than not, you have to depend on a computer to do the job nowadays. This applies to almost everything nowadays, barring the physical labour types. And most likely, multi-tasking will be necessary to meet the deadlines s…",
+      "url": "https://tech.hindustantimes.com/photos/streamline-work-on-windows-11-with-a-snap-71673505976000.html",
+      "urlToImage": "https://images.hindustantimes.com/tech/img/2023/01/12/1600x900/pexels-cottonbro-studio-5077047_1673148674825_1673506480858_1673506480858.jpg",
+      "publishedAt": "2023-01-12T06:55:46Z",
+      "content": "Top SectionsExplore Tech Copyright © HT Media Limited All rights reserved."
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "Business Standard"
+      },
+      "author": "BS Web Team",
+      "title": "Samsung Galaxy F04 budget smartphone goes on sale with introductory offers - Business Standard",
+      "description": "Powered by MediaTek Helio P35 processor the Samsung Galaxy F04 smartphone comes in 4GB RAM and 64GB onboard storage at Rs 9499",
+      "url": "https://www.business-standard.com/article/technology/samsung-galaxy-f04-budget-smartphone-goes-on-sale-with-introductory-offers-123011200392_1.html",
+      "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-01/05/full/1672904771-1328.jpg",
+      "publishedAt": "2023-01-12T06:24:00Z",
+      "content": "Samsung Galaxy F04 budget smartphone will be available for purchase on January 12 at 12pm. Priced at Rs 9,499, the smartphone will be available on Samsung online store, Flipkart and select retail sto… [+1256 chars]"
+      },
+      {
+      "source": {
+      "id": "espn-cric-info",
+      "name": "ESPN Cric Info"
+      },
+      "author": "ESPNcricinfo staff",
+      "title": "CA withdraws from scheduled ODIs against Afghanistan in March - ESPNcricinfo",
+      "description": "CA made the decision following consultation with the Australian government citing Taliban's \"further restrictions on women's and girls' education\"",
+      "url": "https://www.espncricinfo.com/story/australia-withdraw-from-odis-against-afghanistan-over-taliban-restrictions-1353368",
+      "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/348700/348770.6.jpg",
+      "publishedAt": "2023-01-12T06:19:32Z",
+      "content": "NewsCA made the decision following consultation with the Australian government citing Taliban's \"further restrictions on women's and girls' education\""
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "Hindustan Times"
+      },
+      "author": "Poulomi Ghosh",
+      "title": "No scope of repair in Joshimath, NTPC engineers punctured aquifer: Expert - Hindustan Times",
+      "description": "Joshimath land sinking: The government has assured help and compensation to the residents of Joshimath while the demolition of the two precarious hotels is yet to begin. A team of experts will study the land subsidence issue in the Uttarakhand town. | Latest …",
+      "url": "https://www.hindustantimes.com/india-news/no-scope-of-repair-in-joshimath-ntpc-engineers-punctured-aquifer-environment-expert-101673503547658.html",
+      "urlToImage": "https://images.hindustantimes.com/img/2023/01/12/1600x900/PTI01-12-2023-000026A-0_1673503740182_1673503740182_1673503797365_1673503797365.jpg",
+      "publishedAt": "2023-01-12T06:15:08Z",
+      "content": "With a rehabilitation package being prepared by the Uttarakhand government, as Joshimath looks to stymy the crisis of its gradual sinking, environment expert Vimlendu Jha said the town has been broug… [+3203 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "CarToq.com"
+      },
+      "author": "Shantonil Nag",
+      "title": "Maruti Suzuki Jimny 5 door unveiled at Auto Expo 2023: Bookings open! - CarToq.com",
+      "description": "Maruti Suzuki has finally unveiled the five-door variant of the much-awaited Jimny. India is the first market where the 5-door Jimny will be launched. Suzuki Motor Company will also export the model from its Indian plant located in Gujarat. Maruti Suzuki has …",
+      "url": "https://www.cartoq.com/maruti-suzuki-jimny-5-door-unveiled-auto-expo-2023-bookings/",
+      "urlToImage": "https://www.cartoq.com/wp-content/uploads/2023/01/jimny-featured-1.jpg",
+      "publishedAt": "2023-01-12T05:56:48Z",
+      "content": "Maruti Suzuki has finally unveiled the five-door variant of the much-awaited Jimny. India is the first market where the 5-door Jimny will be launched. Suzuki Motor Company will also export the model … [+2906 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "India Today"
+      },
+      "author": "India Today Web Desk",
+      "title": "Webb telescope finds its first planet outside Solar System. It's 99% like Earth - India Today",
+      "description": "The planet is almost exactly the same size as our home planet with a 99 per cent Earth diameter.",
+      "url": "https://www.indiatoday.in/science/story/james-webb-telescope-makes-its-first-planet-discovery-outside-solar-system-its-99-like-earth-2320513-2023-01-12",
+      "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202301/webb_planet-sixteen_nine.jpg?VersionId=mymw5OF2TIe1AH1nreL5NTobHtr8QdFj",
+      "publishedAt": "2023-01-12T05:56:38Z",
+      "content": "By India Today Web Desk: After spending over a year in the vacuum of space, about 15,00,000 kilometers away from Earth, the James Webb Telescope has now become a planet hunter. The world's most power… [+2548 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "NDTV News"
+      },
+      "author": null,
+      "title": "-4 Degree \"Never Seen\" Cold Wave Forecast For North India: Expert - NDTV",
+      "description": "After bone-chilling nights for the past several weeks, the IMD had predicted only temporary relief for residents of Northwest India from the excruciating cold this week.",
+      "url": "https://www.ndtv.com/india-news/delhi-weather-today-4-degree-coldblast-days-ahead-for-north-india-warns-expert-3685118",
+      "urlToImage": "https://c.ndtvimg.com/2023-01/o72pbsck_delhi-cold-reuters_625x300_12_January_23.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675?ver-20221221.02",
+      "publishedAt": "2023-01-12T05:41:00Z",
+      "content": "Delhi could see light rain this week, the IMD has said.\r\nNew Delhi: As temperatures in North India blip up briefly this week, January 2023 could still go down in the books as the coldest for the regi… [+2786 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "Hindustan Times"
+      },
+      "author": "HT Sports Desk",
+      "title": "‘Jay Shah sir’: Prithvi Shaw's reply to BCCI secretary after record-smashing 379 - Hindustan Times",
+      "description": "On Wednesday, Board of Control for Cricket in India(BCCI) secretary Jay Shah took to Twitter to acknowledge his explosive triple ton and congratulated him for hitting the second-highest Ranji Trophy score of all time. | Cricket",
+      "url": "https://www.hindustantimes.com/cricket/jay-shah-sir-prithvi-shaw-s-reply-to-bcci-secretary-after-smashing-multiple-records-with-towering-379-in-ranji-match-101673501162396.html",
+      "urlToImage": "https://images.hindustantimes.com/img/2023/01/12/1600x900/Jay_shah-prithvi_1673501793854_1673501815142_1673501815142.jpg",
+      "publishedAt": "2023-01-12T05:40:46Z",
+      "content": "Talented young cricketer Prithvi Shaw slammed a triple century (379 off 383 balls) in the Ranji Trophy on Wednesday. Playing for Mumbai, he helped his team pile up 687/4 in the first innings against … [+2082 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "Herzindagi.com"
+      },
+      "author": "Krati Purwar",
+      "title": "HPV Vaccine: Everything About Cervical Cancer Prevention Answered By Expert - HerZindagi English",
+      "description": "HPV vaccine is crucial to build immunity against attacks of human papillomavirus (HPV) which usually gets transmitted via sexual activity. It is not specific to women only, hence, men and people identifying with other genders must consult their doctors for th…",
+      "url": "https://www.herzindagi.com/health/hpv-vaccine-cervical-cancer-awareness-who-needs-it-how-it-works-article-219384",
+      "urlToImage": "https://images.herzindagi.info/image/2023/Jan/hpv-vaccine-cervical-cancer-prevention.jpg",
+      "publishedAt": "2023-01-12T05:36:33Z",
+      "content": "January is cervical cancer awareness month, and the only prevention method that exists in the world is the HPV vaccine.  Millions of women in India suffer from cervical cancer. \r\nThe main cause of ce… [+7271 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "NDTV News"
+      },
+      "author": null,
+      "title": "\"We Can't Have Ostrich-Like Stance\": Vice President Takes On Judiciary - NDTV",
+      "description": "Vice President Jagdeep Dhankhar questioned the landmark 1973 Kesavananda Bharati case verdict that gave the basic structure doctrine, saying it set a bad precedent and if any authority questions Parliament's power to amend the Constitution.",
+      "url": "https://www.ndtv.com/india-news/court-cant-dilute-parliaments-sovereignty-vice-president-jagdeep-dhankhar-amid-row-over-judicial-appointments-3684810",
+      "urlToImage": "https://c.ndtvimg.com/2022-12/2lhsm0hg_jagdeep-dhankhar-pti_625x300_23_December_22.jpg",
+      "publishedAt": "2023-01-12T05:21:00Z",
+      "content": "Vice President again criticised the scrapping of the National Judicial Appointments Commission.\r\nJaipur: Vice President Jagdeep Dhankhar on Wednesday questioned the landmark 1973 Kesavananda Bharati … [+2868 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "The Tribune India"
+      },
+      "author": "The Tribune India",
+      "title": "Punjab CM's threat works, PCS officers end stir - The Tribune India",
+      "description": "PCS officers withdrew their protest and resumed duties after a meeting with top officers of the Punjab Government today. The issue of the officers proceeding on mass casual leave in protest had put the government functioning in a limbo and its resolution was …",
+      "url": "https://www.tribuneindia.com/news/punjab/cms-threat-works-pcs-officers-end-stir-469531",
+      "urlToImage": "https://englishtribuneimages.blob.core.windows.net/gallary-content/2023/1/2023_1$largeimg_1880663812.jpg",
+      "publishedAt": "2023-01-12T05:20:00Z",
+      "content": "Tribune News Service\r\nRuchika M Khanna\r\nChandigarh, January 11\r\nPCS officers withdrew their protest and resumed duties after a meeting with top officers of the Punjab Government today. The issue of t… [+2897 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "NDTV News"
+      },
+      "author": "NDTV Sports Desk",
+      "title": "Who's Greater Between Sachin Tendulkar And Virat Kohli? Sourav Ganguly Says This - NDTV Sports",
+      "description": "Virat Kohli slammed his 45th ODI century and, overall his 73rd in international cricket, on Tuesday",
+      "url": "https://sports.ndtv.com/cricket/whos-better-between-sachin-tendulkar-and-virat-kohli-sourav-ganguly-says-this-3685114",
+      "urlToImage": "https://c.ndtvimg.com/2022-07/39tng1oo_sourav-ganguly_625x300_08_July_22.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675",
+      "publishedAt": "2023-01-12T05:13:49Z",
+      "content": "Star batter Virat Kohli has become the talk of the town after he smashed his 45th ODI century during India's first ODI against Sri Lanka in Guwahati on Tuesday. The 34-year-old batter scored 113 runs… [+1553 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "Business Standard"
+      },
+      "author": "BS Web Team",
+      "title": "No amount of alcohol safe, even low consumption hikes cancer risk: WHO - Business Standard",
+      "description": "The agency has previously found that alcohol causes at least 7 types of cancer including the most common cancer types such as bowel cancer and female breast cancer",
+      "url": "https://www.business-standard.com/article/current-affairs/no-amount-of-alcohol-safe-even-low-consumption-hikes-cancer-risk-who-123011200237_1.html",
+      "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2020-09/26/full/1601100134-8273.jpg",
+      "publishedAt": "2023-01-12T04:51:00Z",
+      "content": "There is no \"safe\" amount of alcohol for consumption and it can lead to at least 7 types of cancer, according to the World Health Organisation (WHO). In a statement published in The Lancet Public Hea… [+2827 chars]"
+      },
+      {
+      "source": {
+      "id": null,
+      "name": "Livemint"
+      },
+      "author": "Livemint",
+      "title": "Garena Free Fire Max redeem codes January 12, 2023: Claim daily rewards | Mint - Mint",
+      "description": "Developers of the Garena Free Fire Max game keep updating these codes daily. There is also a dedicated microsite where players can visit to redeem the available codes.",
+      "url": "https://www.livemint.com/technology/tech-news/garena-free-fire-max-redeem-codes-january-12-2023-claim-daily-rewards-11673497687407.html",
+      "urlToImage": "https://images.livemint.com/img/2023/01/12/600x338/Garena_Free_Fire_Max_1660531820245_1673497782517_1673497782517.jpg",
+      "publishedAt": "2023-01-12T04:30:17Z",
+      "content": "Garena Free Fire Max redeem codes are 12 digit alphanumeric codes consisting of capital letters and numbers. The daily codes can be used to win in-game items like weapons, diamonds, skins and more us… [+1687 chars]"
+      },
+      
     {
       source: {
         id: null,
         name: "NDTV News",
       },
-      author: null,
+      author: "NDTV Sports Desk",
       title:
-        'Pics From Inside MV Ganga Vilas, 51-Day River Cruise, "World\'s Longest" - NDTV',
+        "Who's Greater Between Sachin Tendulkar And Virat Kohli? Sourav Ganguly Says This - NDTV Sports",
       description:
-        "Prime Minister Narendra Modi will flag off the \"world's longest river cruise\", MV Ganga Vilas, and inaugurate a 'Tent City' on the banks of the Ganga river in Varanasi on January 13 via video conferencing.",
-      url: "https://www.ndtv.com/india-news/pics-pm-narendra-modi-to-launch-worlds-longest-river-cruise-on-ganga-on-friday-3682482",
+        "Virat Kohli slammed his 45th ODI century and, overall his 73rd in international cricket, on Tuesday",
+      url: "https://sports.ndtv.com/cricket/whos-better-between-sachin-tendulkar-and-virat-kohli-sourav-ganguly-says-this-3685114",
       urlToImage:
-        "https://c.ndtvimg.com/2023-01/kffb99jo_ganga-river-cruise-worlds-longest-river-cruise-facebook_625x300_11_January_23.jpg",
-      publishedAt: "2023-01-11T10:52:00Z",
+        "https://c.ndtvimg.com/2022-07/39tng1oo_sourav-ganguly_625x300_08_July_22.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675",
+      publishedAt: "2023-01-12T05:13:49Z",
       content:
-        'PM Narendra Modi will flag off the "world\'s longest river cruise", MV Ganga Vilas on Friday\r\nNew Delhi: Prime Minister Narendra Modi will flag off the "world\'s longest river cruise", MV Ganga Vilas, … [+4462 chars]',
-    },
-    {
-      source: {
-        id: null,
-        name: "The Indian Express",
-      },
-      author: "Anuj Bhatia",
-      title:
-        "With 900 million paid subscribers, Apple’s services gamble seems to have paid off - The Indian Express",
-      description:
-        "With iPhone sales peaking in many matured markets and the company struggling with supply chain issues in China, the service segment has never been more important for Apple.",
-      url: "https://indianexpress.com/article/technology/with-900-million-paid-subscribers-apples-services-gamble-seems-to-have-paid-off-8375762/",
-      urlToImage: "https://images.indianexpress.com/2023/01/Apple-fb-1.jpg",
-      publishedAt: "2023-01-11T10:50:03Z",
-      content:
-        "Apple now has over 900 million subscribers for its popular services, including Apple Music and Apple TV+. The figure is astounding, but more than that, it gives a sense of how quickly Apples services… [+4857 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "Tech Explorist",
-      },
-      author: "Amit Malewar",
-      title: "Astronomers detected a superheavy neutron star - Tech Explorist",
-      description:
-        "This fleeting, massive object likely formed from the collision of two neutron stars.",
-      url: "https://www.techexplorist.com/superheavy-neutron-star/55921/",
-      urlToImage:
-        "https://www.techexplorist.com/wp-content/uploads/2023/01/neutron-star-merger.jpg",
-      publishedAt: "2023-01-11T10:31:33Z",
-      content:
-        "Short gamma-ray bursts (GRBs) are associated with binary neutron star mergers, multimessenger astronomical events observed in gravitational waves, and the multiband electromagnetic spectrum. Dependin… [+3670 chars]",
+        "Star batter Virat Kohli has become the talk of the town after he smashed his 45th ODI century during India's first ODI against Sri Lanka in Guwahati on Tuesday. The 34-year-old batter scored 113 runs… [+1553 chars]",
     },
     {
       source: {
@@ -246,66 +307,332 @@ export class News extends Component {
       },
       author: "Rakesh Patil",
       title:
-        "Closing Bell: Sensex, Nifty end flat amid high volatility; metals shine, FMCG drags - Moneycontrol",
+        "Market LIVE Updates: Indices trade lower, Nifty around 17,800; Divis Labs, Axis Bank top losers - Moneycontrol",
       description:
-        "On the sectoral front, selling was seen in the FMCG, auto, pharma, power and oil &amp; gas, while buying was seen in the bank, metal and information technology names.",
-      url: "https://www.moneycontrol.com/news/business/markets/share-market-live-updates-stock-market-today-january-11-latest-news-bse-nse-sensex-nifty-covid-coronavirus-adani-ports-pc-jeweller-uttam-sugar-mills-tata-motors-bank-of-baroda-cupid-bilcare-tuticorin-9844141.html",
+        "Stock Market LIVE Updates: Oil &amp; Gas, PSU Bank indices down 1 percent each, while metal and pharma indices down 0.5 percent each.",
+      url: "https://www.moneycontrol.com/news/business/markets/share-market-live-updates-stock-market-today-january-12-latest-news-bse-nse-sensex-nifty-covid-coronavirus-infosys-hcl-technologies-cyient-den-networks-hindustan-unilever-sbi-route-mobile-antony-waste-9851411.html",
       urlToImage:
-        "https://images.moneycontrol.com/static-mcnews/2021/06/Sensex-3-770x433.jpg",
-      publishedAt: "2023-01-11T10:31:27Z",
+        "https://images.moneycontrol.com/static-mcnews/2023/01/sensex_nifty_sensexdown-1-770x433.jpg",
+      publishedAt: "2023-01-12T08:34:56Z",
       content:
-        "<li>Expect Rupee to trade with a positive bias: Anuj Choudhary\r\n</li><li>Morgan Stanley keeps 'Underweight' rating on Samvardhana Motherson; target at Rs 70.67\r\n</li><li>Morgan Stanley keeps 'Underwe… [+4709 chars]",
+        "<li>Nifty Private Bank index falls 0.75 percent dragged by Axis Bank, Bandhan Bank and RBL Bank; HDFC Bank lone gainer\r\n</li><li>Alibaba likely to have sold stake in Paytm via bulk deal; stock down 5… [+3838 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Indiacarnews.com",
+      },
+      author: "Chhavi Kaushik",
+      title:
+        "2 New Tata Petrol Engines (Turbo) Revealed – All Details - India Car News",
+      description:
+        "Tata Motors showcased an exciting range of the new models and concepts along with its advanced technology and two new turbocharged petrol engines. The new Tata petrol engines are turbocharged including a new 1.2L, 3-cylinder and a 1.5L, 4-cylinder unit. While…",
+      url: "https://www.indiacarnews.com/news/2-new-tata-petrol-engines-turbo-revealed-all-details-55841/",
+      urlToImage:
+        "https://www.indiacarnews.com/wp-content/uploads/2021/02/Tata-Safari-Electric-SUV-1000x600.jpg",
+      publishedAt: "2023-01-12T07:46:55Z",
+      content:
+        "Tata Motors showcased an exciting range of the new models and concepts along with its advanced technology and two new turbocharged petrol engines. The new Tata petrol engines are turbocharged includi… [+1703 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Moneycontrol",
+      },
+      author: "Bhavya Dua",
+      title:
+        "Where to invest Rs 10 lakh today? Tata MF’s Rahul Singh is betting on these 3 sectors - Moneycontrol",
+      description:
+        "The Tata Mutual Fund's Chief Investment Officer (Equities) says debt allocation will play a crucial role over the next two years. A combination of short-term funds, target maturity funds, and dynamic bond funds is good for debt allocation, which should be aro…",
+      url: "https://www.moneycontrol.com/news/business/personal-finance/where-to-invest-rs-10-lakh-tata-mfs-rahul-singh-betting-on-these-three-sectors-9853481.html",
+      urlToImage:
+        "https://images.moneycontrol.com/static-mcnews/2023/01/Rahul-Singh-Tata-Mutua-Fund-770x433.jpg",
+      publishedAt: "2023-01-12T07:33:29Z",
+      content:
+        "The Rs 40-trillion Indian mutual funds (MF) industry has seen many instances of fund managers moving on to set up their own portfolio management service (PMS) or alternate investment fund (AIF) offic… [+6089 chars]",
     },
     {
       source: {
         id: null,
         name: "NDTV News",
       },
-      author: "NDTV Sports Desk",
+      author: null,
       title:
-        'India vs Sri Lanka - "Not Many Captains...": Ex Sri Lanka Stars On Rohit Sharma Withdrawing Mohammed.. - NDTV Sports',
+        "World's Richest Man Sparks Succession Buzz With Daughter's Promotion - NDTV",
       description:
-        "In first ODI between India and Sri Lanka in Guwahati, Mohammed Shami attempted to run out rival skipper Dasun Shanaka at the non-striker's end in the last over of the match",
-      url: "https://sports.ndtv.com/india-vs-sri-lanka-2023/not-many-captains-ex-sri-lanka-stars-on-rohit-sharma-withdrawing-mohammed-shamis-appeal-to-run-out-dasun-shanaka-3682771",
+        "Bernard Arnault named his daughter Delphine to run LVMH's second-biggest brand, Dior, the latest step by the 73-year-old billionaire to elevate his children to key posts in his luxury empire.",
+      url: "https://www.ndtv.com/world-news/worlds-richest-man-sparks-succession-buzz-with-daughters-promotion-3685301",
       urlToImage:
-        "https://c.ndtvimg.com/2023-01/7kionnu8_shami_625x300_10_January_23.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675",
-      publishedAt: "2023-01-11T10:18:19Z",
+        "https://c.ndtvimg.com/2023-01/mlkvc3eo_bernard-arnault-delphine-arnault-_625x300_12_January_23.jpg",
+      publishedAt: "2023-01-12T07:05:00Z",
       content:
-        "The first ODI between India and Sri Lanka in Guwahati almost had its controversial moment when Mohammed Shami attempted to run out rival skipper Dasun Shanaka at the non-striker's end in the last ove… [+1670 chars]",
+        "Bernard Arnault has appointed his daughter, Delphine Arnault, to run Dior. (File)\r\nBernard Arnault named his daughter Delphine to run LVMH's second-biggest brand, Dior, the latest step by the 73-year… [+3005 chars]",
     },
     {
       source: {
         id: null,
-        name: "India Today",
+        name: "NDTV News",
       },
-      author: "Prachi Arya",
+      author: null,
       title:
-        "After pics from Rakhi Sawant's court wedding goes VIRAL, boyfriend Adil Durrani denies union - India Today",
+        "Twitter Orders Workers In Asia Headquarters To Clear Desks, WFH - NDTV",
       description:
-        "Did Rakhi Sawant secretly marry beau Adil Durrani? Pictures from their court wedding have gone viral. However, Adil has denied rumours of his marriage to the actress.",
-      url: "https://www.indiatoday.in/television/celebrity/story/after-pics-from-rakhi-sawants-court-wedding-goes-viral-boyfriend-adil-durrani-denies-union-2320180-2023-01-11",
+        "Workers at Twitter Inc.'s Singapore office were told to empty out their desks and vacate the premises, said people familiar with the situation, as Elon Musk continues to pare expenses around the globe.",
+      url: "https://www.ndtv.com/world-news/twitter-orders-workers-in-asia-headquarters-to-clear-desks-wfh-3685399",
       urlToImage:
-        "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202301/rakhi_1-sixteen_nine.jpg?VersionId=b8spyqvR7atcmxYEQHenocI373AD5g2L",
-      publishedAt: "2023-01-11T09:47:31Z",
+        "https://c.ndtvimg.com/2022-11/okp9rero_twitter-bloomberg_625x300_01_November_22.jpg",
+      publishedAt: "2023-01-12T06:47:24Z",
       content:
-        "By Prachi Arya: Bigg Boss fame Rakhi Sawant seems to have tied the knot once again with her longtime boyfriend Adil Durrani. Though the actress has not made it official, pictures from their court wed… [+1285 chars]",
+        "The Singapore office employees have been told to work from home starting Thursday. (Representational)\r\nWorkers at Twitter Inc.'s Singapore office were told to empty out their desks and vacate the pre… [+1534 chars]",
     },
     {
       source: {
         id: null,
-        name: "Crictracker.com",
+        name: "CarToq.com",
       },
-      author: "CricTracker Staff",
+      author: "Shantonil Nag",
       title:
-        "Pakistan vs New Zealand 2nd ODI Match Prediction – Who will win today's match between PAK vs NZ? - CricTracker",
+        "Maruti Suzuki Jimny 5 door unveiled at Auto Expo 2023: Bookings open! - CarToq.com",
       description:
-        "Following the win for hosts in the first ODI contest at the National Bank Arena in Karachi, Pakistan will lock horns with New Zealand in the second of the three-match series at the same venue on Janua",
-      url: "https://www.crictracker.com/cricket-match-predictions/pakistan-vs-new-zealand-2nd-odi-match-prediction-who-will-win-todays-match-between-pak-vs-nz/",
+        "Maruti Suzuki has finally unveiled the five-door variant of the much-awaited Jimny. India is the first market where the 5-door Jimny will be launched. Suzuki Motor Company will also export the model from its Indian plant located in Gujarat. Maruti Suzuki has …",
+      url: "https://www.cartoq.com/maruti-suzuki-jimny-5-door-unveiled-auto-expo-2023-bookings/",
       urlToImage:
-        "https://media.crictracker.com/media/attachments/1673285143482_Pakistan-Team.jpeg",
-      publishedAt: "2023-01-11T09:15:00Z",
+        "https://www.cartoq.com/wp-content/uploads/2023/01/jimny-featured-1.jpg",
+      publishedAt: "2023-01-12T05:56:48Z",
       content:
-        "Following the win for hosts in the first ODI contest at the National Bank Arena in Karachi, Pakistan will lock horns with New Zealand in the second of the three-match series at the same venue on Janu… [+2595 chars]",
+        "Maruti Suzuki has finally unveiled the five-door variant of the much-awaited Jimny. India is the first market where the 5-door Jimny will be launched. Suzuki Motor Company will also export the model … [+2906 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Ipowatch.in",
+      },
+      author: "IPOWatch Team",
+      title:
+        "Aristo Bio-Tech IPO GMP, Date, Price, Review, Allotment - IPO Watch",
+      description:
+        "Aristo Bio-Tech IPO date is January 16. Check Aristo Bio-Tech IPO GMP, review, price band, lot size, form, listing & IPO allotment status.",
+      url: "https://ipowatch.in/aristo-bio-tech-ipo-gmp-date-price-review-allotment/",
+      urlToImage:
+        "https://ipowatch.in/wp-content/uploads/2023/01/aristo-bio-tech-and-lifescience-ipo.webp",
+      publishedAt: "2023-01-12T05:55:58Z",
+      content: null,
+    },
+    {
+      source: {
+        id: null,
+        name: "Daijiworld.com",
+      },
+      author: null,
+      title:
+        "Mangaluru: Advaith Hyundai launches new Aura, Grand i10 NIOS – Bookings open - Daijiworld.com",
+      description:
+        "Media Release Mangaluru, Jan 12: Advaith Hyundai has opened bookings for the new Hyundai Aura, a superior sedan and Grand i10 NIOS. The new Hyundai Aura is equipped with a series of best-in-class safety features, superior styling and advanced convenience with…",
+      url: "https://www.daijiworld.com/news/newsDisplay?newsID=1038926",
+      urlToImage:
+        "https://daijiworld.ap-south-1.linodeobjects.com/Linode/images3/rayan_040123_Hyundai1.jpg",
+      publishedAt: "2023-01-12T05:19:52Z",
+      content:
+        "Media Release\r\nMangaluru, Jan 12: Advaith Hyundai has opened bookings for the new Hyundai Aura, a superior sedan and Grand i10 NIOS.\r\nThe new Hyundai Aura is equipped with a series of best-in-class s… [+2163 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Livemint",
+      },
+      author: "Livemint",
+      title:
+        "Auto Expo 2023, Day 2: Maruti Suzuki reveals its Jimny and Fronx | Mint - Mint",
+      description:
+        "Auto Expo 2023 kickstarted in India with new launches from Tata Motors Maruti Suzuki, MG Motors, Kia Motors, Hyundai and others",
+      url: "https://www.livemint.com/auto-news/auto-expo-2023-day-2-maruti-suzuki-reveals-its-jimny-and-fronx-11673412113754.html",
+      urlToImage:
+        "https://images.livemint.com/img/2023/01/12/600x338/fronx_and_jimy_1673500096694_1673500104937_1673500104937.png",
+      publishedAt: "2023-01-12T05:12:16Z",
+      content:
+        "First day of Auto Expo 2023 concluded with brands betting big on electric vehicles across two-wheeler, three-wheeler and four-wheeler vehicle categories. Maruti Suzuki showcased its concept electric … [+13646 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Moneycontrol",
+      },
+      author: "Moneycontrol News",
+      title:
+        "This smallcap stock gains 25% in 3 sessions as Rekha Jhunjunwala sells her stake - Moneycontrol",
+      description:
+        "Between January 9-11, Rekha Jhunjhunwala has cumulatively amount sold by her stands at 15.9 lakh shares",
+      url: "https://www.moneycontrol.com/news/business/stocks/this-smallcap-stock-gains-25-in-3-sessions-as-rekha-jhunjunwala-sells-her-stake-9852691.html",
+      urlToImage:
+        "https://images.moneycontrol.com/static-mcnews/2022/11/sensex_nifty-marketup_sensexup-Niftyup-1-770x433.jpg",
+      publishedAt: "2023-01-12T05:09:23Z",
+      content:
+        "Pharma packaging solutions provider Bilcare has been in the limelight through the past few trading sessions after Rekha Jhunjhunwala, wife of legendary investor Rakesh Jhunjhunwala, began selling sta… [+1392 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Hindustan Times",
+      },
+      author: "Snehashish Roy",
+      title:
+        "Non-resident Indians from 10 countries soon be able to make UPI payments. List - Hindustan Times",
+      description:
+        "NCPI said in a circular asked UPI participants to devise a mechanism by April 30 that will allow NRIs to make digital payments without having to get an Indian mobile number. | Latest News India",
+      url: "https://www.hindustantimes.com/india-news/nonresident-indians-from-10-countries-soon-be-able-to-make-upi-payments-list-101673493621543.html",
+      urlToImage:
+        "https://images.hindustantimes.com/img/2023/01/12/1600x900/_f99995ca-d532-11e9-ab55-f69b78c5f02d_1673496485954_1673496485954.jpg",
+      publishedAt: "2023-01-12T04:13:00Z",
+      content:
+        "Non-resident Indians (NRI) from ten countries can soon transfer funds online using the unified payments interface (UPI) using their Non-Resident (External) Rupee (NRE) or Non-Resident Ordinary (NRO) … [+2128 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Moneycontrol",
+      },
+      author: "Moneycontrol News",
+      title:
+        "Indian woman laid off by Goldman Sachs in US: 'I come from a rural family' - Moneycontrol",
+      description:
+        "Goldman Sachs is laying off nearly 3,200 employees or nearly 6.5 per cent of its workforce, in its biggest job cuts.",
+      url: "https://www.moneycontrol.com/news/trends/indian-woman-laid-off-by-goldman-sachs-in-us-i-come-from-a-rural-family-9852181.html",
+      urlToImage:
+        "https://images.moneycontrol.com/static-mcnews/2023/01/Shilpi-Soni-LinkedIn-770x435.jpg",
+      publishedAt: "2023-01-12T04:04:14Z",
+      content:
+        "Goldman Sachs on Wednesday began its job cuts that is feared to affect some 3,200 employees or nearly 6.5 per cent of its workforce. This is the biggest round of layoffs by the investment giant.\r\nAff… [+2222 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Rediff.com",
+      },
+      author: "Nitin Kumar, Shine Jacob & Deepak Patel",
+      title: "Auto Expo 2023 Day 1: EVs Rule! - Rediff.com",
+      description:
+        "Almost all of these companies either unveiled their new electric vehicle or alternative energy-powered models.",
+      url: "https://www.rediff.com/business/report/auto-expo-2023-day-1-evs-rule/20230112.htm",
+      urlToImage: "https://im.rediff.com/money/2023/jan/12auto-expo-2023-1.jpg",
+      publishedAt: "2023-01-12T03:35:50Z",
+      content:
+        "IMAGE: Shah Rukh Khan shows his signature pose at the launch of the Hyundai IONIQ 5 at the Auto Expo 2023 at India Expo Mart in Greater Noida, January 11, 2023. Photograph: Rahul Singh/ANI Photo\r\nFro… [+3240 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "CarToq.com",
+      },
+      author: "Utkarsh Deshmukh",
+      title:
+        "Maruti Suzuki Satin Black Edition Grand Vitara and Brezza unveiled the Auto Expo 2023 - CarToq.com",
+      description:
+        "Amongst the total of 16 cars on display at its booth at the Auto Expo 2023, the country’s largest carmaker Maruti Suzuki India Limited has showcased the Satin Black Editions of two of its most popular SUVs. Maruti Suzuki displayed a Grand Vitara and a Brezza …",
+      url: "https://www.cartoq.com/maruti-suzuki-satin-black-edition-grand-vitara-and-brezza-unveiled-the-auto-expo-2023/",
+      urlToImage:
+        "https://www.cartoq.com/wp-content/uploads/2023/01/maruti-suzuki-grand-vitara-black-edition-featured.jpg",
+      publishedAt: "2023-01-12T02:17:54Z",
+      content:
+        "Amongst the total of 16 cars on display at its booth at the Auto Expo 2023, the country’s largest carmaker Maruti Suzuki India Limited has showcased the Satin Black Editions of two of its most popula… [+2980 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Livemint",
+      },
+      author: "Livemint",
+      title:
+        "Stocks to Watch: Sah Polymers, HUL, ONGC, Tata Motors, Eicher Motors | Mint - Mint",
+      description:
+        "Infosys, HCL Technologies, Cyient, GM Breweries, and Anand Rathi Wealth will be among the stocks in focus as they declare their December quarter earnings today.",
+      url: "https://www.livemint.com/market/stock-market-news/stocks-to-watch-sah-polymers-hul-ongc-tata-motors-eicher-motors-11673483824888.html",
+      urlToImage:
+        "https://images.livemint.com/img/2023/01/12/600x338/Bull_vs_bear_iStock_1658452654594_1673483879688_1673483879688.JPG",
+      publishedAt: "2023-01-12T01:59:19Z",
+      content:
+        "Sah Polymers: Sah Polymers IPO listing date has been fixed on 12th January 2023 i.e. today. As per the information available on the BSE website, effective from Thursday, January 12, 2023, the equity … [+5506 chars]",
+    },
+    {
+      source: {
+        id: "the-times-of-india",
+        name: "The Times of India",
+      },
+      author: "Rashmi Rajput",
+      title: "DRI issues show cause notice to Samsung India - Economic Times",
+      description:
+        "The agency in the notice also asked why a penalty should not be imposed against the senior management of the company. The DRI also issued a show cause notice to PricewaterhouseCoopers Pvt Ltd (PwC) and an associate director, who was questioned during the prob…",
+      url: "https://economictimes.indiatimes.com/news/india/dri-issues-show-cause-notice-to-samsung-india/articleshow/96925150.cms",
+      urlToImage:
+        "https://img.etimg.com/thumb/msid-96925171,width-1070,height-580,imgsize-23320,overlay-economictimes/photo.jpg",
+      publishedAt: "2023-01-12T01:55:00Z",
+      content:
+        "The Directorate of Revenue Intelligence (DRI) has issued a show cause notice to Samsung India Electronics (SIEL), asking why the agency should not recover Rs 1,728.47 crore as duty along with interes… [+8540 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Moneycontrol",
+      },
+      author: "Sandip Das",
+      title:
+        "Buzzing Stocks | Infosys, Hindustan Unilever, HCL Technologies and others in news today - Moneycontrol",
+      description:
+        "Stocks to Watch: Check out the companies making headlines before the opening bell.",
+      url: "https://www.moneycontrol.com/news/photos/business/stocks/buzzing-stocks-infosys-hindustan-unilever-hcl-technologies-and-others-in-news-today-9850431.html",
+      urlToImage:
+        "https://images.moneycontrol.com/static-mcnews/2021/03/BUZZING-STOCKS-770x433.jpg",
+      publishedAt: "2023-01-12T01:27:31Z",
+      content: null,
+    },
+    {
+      source: {
+        id: null,
+        name: "OilPrice.com",
+      },
+      author: "Alex Kimani",
+      title:
+        "Why Oil's 7-Month Downturn May Be About To Reverse - OilPrice.com",
+      description:
+        "Commodity analysts at Standard Chartered have expressed optimism that the prolonged selloff could have reached an inflection point and that the 7-month downturn could be about to reverse",
+      url: "https://oilprice.com/Metals/Gold/Why-Oils-7-Month-Downturn-May-Be-About-To-Reverse.html",
+      urlToImage:
+        "https://d32r1sh890xpii.cloudfront.net/article/718x300/2023-01-11_whnjkx6e85.jpg",
+      publishedAt: "2023-01-12T01:00:00Z",
+      content:
+        "A lot of Western institutions…\r\nWhile most aluminum producers operate…\r\nGold, silver, platinum, and palladium…\r\nBy Alex Kimani - Jan 11, 2023, 7:00 PM CSTOil prices have kicked off the new year on th… [+4909 chars]",
+    },
+    {
+      source: {
+        id: "reuters",
+        name: "Reuters",
+      },
+      author: null,
+      title:
+        "GM, Ford, Google partner to promote 'virtual' power plants - Reuters",
+      description:
+        "Companies including GM, Ford, Google and solar energy producers said on Tuesday they would work together to establish standards for scaling up the use of virtual power plants (VPPs), systems for easing loads on electricity grids when supply is short.",
+      url: "https://www.reuters.com/business/energy/gm-ford-google-partner-promote-virtual-power-plants-2023-01-10/",
+      urlToImage:
+        "https://www.reuters.com/resizer/WEIKyCH4ynrBV-PmXbMuzCFHkxA=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/LNWA2XBSGFPXRMMKWQUWOVZSJM.jpg",
+      publishedAt: "2023-01-12T00:26:00Z",
+      content:
+        "WASHINGTON, Jan 10 (Reuters) - Companies including GM, Ford, Google and solar energy producers said on Tuesday they would work together to establish standards for scaling up the use of virtual power … [+2773 chars]",
+    },
+    {
+      source: {
+        id: null,
+        name: "Investing.com",
+      },
+      author: "Yasin Ebrahim/Investing.com",
+      title:
+        "Inflation to slump to 2.2% by year-end, setting up rally for stocks: Wells Fargo By Investing.com - Investing.com",
+      description:
+        "Inflation to slump to 2.2% by year-end, setting up rally for stocks: Wells Fargo",
+      url: "https://www.investing.com/news/economy/inflation-to-slump-to-22-by-yearend-setting-up-rally-for-stocks-wells-fargo-2978551",
+      urlToImage: "https://i-invdn-com.investing.com/news/LYNXNPEC0D0AP_L.jpg",
+      publishedAt: "2023-01-11T21:49:00Z",
+      content:
+        "By Yasin Ebrahim\r\nInvesting.com -- Inflation is widely expected to show further signs of easing on Thursday, and could fall by a staggering 76% in this cycle and fall to 2.2% by year-end, helping sto… [+2903 chars]",
     },
     {
       source: {
@@ -345,7 +672,7 @@ export class News extends Component {
   constructor() {
     super(); //  Must call super constructor in derived class before accessing 'this' or returning from derived constructor
     this.state = {
-      articles: this.articles,    // this.articles yani is class ke upper jo array hai vo abb iske state ke pass ja chuka hai
+      articles: this.articles, // this.articles yani is class ke upper jo array hai vo abb iske state ke pass ja chuka hai
       loading: false,
     };
   }
@@ -354,16 +681,21 @@ export class News extends Component {
       <>
         {" "}
         <h2 className="container">NewsMonkey-Top Headlines</h2>
-        <div  className="container my-3">
-          {this.state.articles.map((e) => {     // mtlb jo is class ke state mai articles(group of objects) pda hua hai use har object ke liye is jsx ko put kro
-             //  console.log(this)   x120 {props: (), context: (), refs: (), updater: (), articles: Array(28) [{...},.......................]
-          //   console.log(this.state)    x120 {articles: Array(20) [ {...}, ..................................], Loading: false }{articles: Array(28) [{...},.....
-            return (                
+        <div className="container my-3">
+          {this.state.articles.map((e) => {
+            // mtlb jo is class ke state mai articles(group of objects) pda hua hai use har object ke liye is jsx ko put kro
+            //  console.log(this)   x120 {props: (), context: (), refs: (), updater: (), articles: Array(28) [{...},.......................]
+            //   console.log(this.state)    x120 {articles: Array(20) [ {...}, ..................................], Loading: false }{articles: Array(28) [{...},.....
+            return (
               <Newsitem
-              key={e.url}
+                key={e.url}
                 title={e.title}
                 description={e.description.slice(0, 88)}
-                imageUrl={e.urlToImage}
+                imageUrl={
+                  e.urlToImage
+                    ? e.urlToImage
+                    : "https://bitsofco.de/content/images/2018/12/Screenshot-2018-12-16-at-21.06.29.png"
+                }
                 url={e.url}
               />
             );
