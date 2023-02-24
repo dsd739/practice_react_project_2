@@ -11,6 +11,13 @@
 .card-img-top{
     height: 200px;
 }
+.bttns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
 body{
     scroll-behavior: smooth;
+    background-color: rgb(47, 12, 80);
+  
 }
