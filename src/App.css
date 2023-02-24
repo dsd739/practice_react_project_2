@@ -19,5 +19,33 @@
 body{
     scroll-behavior: smooth;
     background-color: rgb(47, 12, 80);
-  
+}
+
+/* For loader */
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.ring{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-bottom: 5px solid red;
+    border-radius: 50%;
+    animation-name: ring;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@keyframes ring{
+    0%{
+        transform: rotate(-360deg);
+    }
 }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Newsitem from "./Newsitem";
+import Loader from "./Loader";
 
 export class News extends Component {
   constructor() {
@@ -7,12 +8,13 @@ export class News extends Component {
     console.log("in the constructerr");
     this.state = {
       articles: null, // this.articles yani is class ke upper jo array hai vo abb iske state ke pass ja chuka hai
-      //  loading: false,
+      loading: false,
       page: 1,
       totalNews: null,
     };
   }
   async componentDidMount() {
+    this.setState({ loading: true });
     console.log("in the cdm first");
     let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=46eca8ae2a5247228a16ca209143fb35&pagesize=15&page=${this.state.page}`;
     console.log(url);
@@ -22,11 +24,13 @@ export class News extends Component {
     this.setState({
       articles: parsedata.articles,
       totalNews: parsedata.totalResults,
+      loading: false,
     });
     console.log("in the cdm last");
   }
 
   handlepreviousclick = async () => {
+    this.setState({ loading: true });
     console.log("in the privious first");
     console.log("privious clicked");
     await this.setState({
@@ -40,10 +44,12 @@ export class News extends Component {
     console.log(parsedata);
     this.setState({
       articles: parsedata.articles,
+      loading: false,
     });
     console.log("in the privious last");
   };
   handlenextclick = async () => {
+    this.setState({ loading: true });
     console.log("next click");
     console.log("in the next first");
     await this.setState({
@@ -57,6 +63,7 @@ export class News extends Component {
     console.log(parsedata);
     this.setState({
       articles: parsedata.articles,
+      loading: false,
     });
     console.log("in the next last");
   };
@@ -64,7 +71,7 @@ export class News extends Component {
   render() {
     return (
       <>
-        {" "}
+        {this.state.loading && <Loader />}
         <h2 className="container">NewsMonkey-Top Headlines</h2>
         <div className="container my-3">
           {this.state.articles
@@ -97,7 +104,7 @@ export class News extends Component {
             &larr; Previous
           </button>
           <button
-             disabled={this.state.page * 15 > this.state.totalNews}
+            disabled={this.state.page * 15 > this.state.totalNews}
             type="button"
             onClick={this.handlenextclick}
             className="btn btn-dark"
