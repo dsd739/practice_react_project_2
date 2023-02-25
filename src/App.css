@@ -5,6 +5,10 @@
     justify-content: space-around;
     align-items: flex-start;
 }
+
+.heading{
+    color: aliceblue;
+}
 .card{
    margin-bottom: 50px;
 }
@@ -17,8 +21,8 @@
     margin-bottom: 10%;
 }
 body{
-    scroll-behavior: smooth;
-    background-color: rgb(47, 12, 80);
+    scroll-behavior:smooth;
+    background-image: linear-gradient(to bottom right, rgba(215, 151, 41, 0.86), rgb(255, 255, 255)); 
 }
 
 /* For loader */
