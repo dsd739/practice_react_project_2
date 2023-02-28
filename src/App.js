@@ -47,7 +47,7 @@ export default class App extends Component {
             path="/science"
             element={<News key="science" category="science" />}
           ></Route>
-          //
+          
         </Routes>
       </Router>
     );

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Newsitem from "./Newsitem";
 import Loader from "./Loader";
 import PropTypes from "prop-types";
+import InfiniteScroll from "react-infinite-scroll-component";
 
 export class News extends Component {
   static defaultProps = {
@@ -14,17 +15,29 @@ export class News extends Component {
   constructor() {
     super(); //  Must call super constructor in derived class before accessing 'this' or returning from derived constructor
     this.state = {
-      articles: null, // this.articles yani is class ke upper jo array hai vo abb iske state ke pass ja chuka hai
+      articles: null, // this.articles yani is class ke upper jo array hai vo abb iske state ke pass ja chuka hai (pehle tha)
       loading: false,
       page: 1,
       totalNews: null,
     };
   }
+  /* forfeching = async () => {
+    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=46eca8ae2a5247228a16ca209143fb35&pagesize=19&page=${this.state.page}`;
+    let data = await fetch(url);
+    let parsedata = await data.json();
+    console.log(parsedata);
+    this.setState({
+      articles: parsedata.articles,
+      totalNews: parsedata.totalResults,
+      loading: false,
+    });
+  }; */
+
   async componentDidMount() {
     this.setState({ loading: true });
-    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=46eca8ae2a5247228a16ca209143fb35&pagesize=15&page=${this.state.page}`;
+    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=46eca8ae2a5247228a16ca209143fb35&pagesize=19&page=${this.state.page}`;
     let data = await fetch(url);
-    let parsedata = await data.json();console.log(parsedata);
+    let parsedata = await data.json();
     this.setState({
       articles: parsedata.articles,
       totalNews: parsedata.totalResults,
@@ -32,31 +45,34 @@ export class News extends Component {
     });
   }
 
-  handlepreviousclick = async () => {
+  /* handlepreviousclick = async () => {
     this.setState({ loading: true });
     await this.setState({
       page: this.state.page - 1,
     });
-    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=46eca8ae2a5247228a16ca209143fb35&pagesize=15&page=${this.state.page}`;
-    let data = await fetch(url);
-    let parsedata = await data.json();
-    this.setState({
-      articles: parsedata.articles,
-      loading: false,
-    });
+    this.forfeching();
   };
   handlenextclick = async () => {
     this.setState({ loading: true });
     await this.setState({
       page: this.state.page + 1,
     });
-    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=46eca8ae2a5247228a16ca209143fb35&pagesize=15&page=${this.state.page}`;
+    this.forfeching();
+  };*/
+  fetchMoreData = async () => {
+    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=46eca8ae2a5247228a16ca209143fb35&pagesize=19&page=${this.state.page + 1}`;
+    this.setState({
+      page: this.state.page + 1,
+      loading: true,
+    });
     let data = await fetch(url);
     let parsedata = await data.json();
     this.setState({
-      articles: parsedata.articles,
+      articles: this.state.articles.concat(parsedata.articles),
+      totalNews: parsedata.totalResults,
       loading: false,
     });
+    console.log(this.state.page)
   };
 
   render() {
@@ -65,8 +81,16 @@ export class News extends Component {
         {this.state.loading && <Loader />}
         <h2 className="container heading">NewsMonkey-Top Headlines</h2>
         <div className="container my-3">
-          {!this.state.loading && this.state.articles
-            ? this.state.articles.map((e) => {
+          {this.state.articles && (
+            <InfiniteScroll
+              dataLength={this.state.totalNews}
+              next={this.fetchMoreData}
+              style={{ width: "90vw",display:'flex', 'flex-flow': 'row wrap','justifyContent': 'space-between' }} //To put endMessage and loader to the top.
+              hasMore={this.state.page * 19 <= this.state.totalNews}
+              loader={<h4>Loading...</h4>}
+              scrollableTarget="scrollableDiv"
+            >
+              {this.state.articles.map((e) => {
                 // console.log(e);
                 // mtlb jo is class ke state mai articles(group of objects) pda hua hai use har object ke liye is jsx ko put kro
                 //  console.log(this)   x120 {props: (), context: (), refs: (), updater: (), articles: Array(28) [{...},.......................]
@@ -82,10 +106,11 @@ export class News extends Component {
                     url={e.url}
                   />
                 );
-              })
-            : console.log("loading")}
+              })}
+            </InfiniteScroll>
+          )}
         </div>
-        <div className="bttns container">
+        {/* <div className="bttns container">
           <button
             type="button"
             disabled={this.state.page <= 1}
@@ -95,14 +120,14 @@ export class News extends Component {
             &larr; Previous
           </button>
           <button
-            disabled={this.state.page * 15 > this.state.totalNews}
+            disabled={this.state.page * 19 > this.state.totalNews}
             type="button"
             onClick={this.handlenextclick}
             className="btn btn-dark"
           >
             Next &rarr;
           </button>
-        </div>
+        </div> */}
       </>
     );
   }
